@@ -100,3 +100,4 @@ https://test.cmuohrm.site/
 
 This web app will be open source upon releasing the stable production.
 # qr_attendance
+# qr_attendance
