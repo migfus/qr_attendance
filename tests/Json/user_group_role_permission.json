@@ -1,0 +1,17 @@
+{
+  "id": "123123",
+  "email": "email@gmail.com",
+  "group": {
+    "id": "12312",
+    "name": "Group 1",
+    "desc": "This Group is about the group",
+    "role": {
+      "name": "Writer",
+      "permissions": [
+        "post read",
+        "post write",
+        "post delete"
+      ]
+    }
+  }
+}

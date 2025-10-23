@@ -1,0 +1,23 @@
+/.phpunit.cache
+/node_modules/
+/public/uploads/
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.old
+.env.local
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+New WinRAR ZIP archive.zip
+

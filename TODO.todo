@@ -1,0 +1,36 @@
+% Arta ID Registration
+    x Registration part is ok
+    x Added the cache for heavy data
+    x Can delete
+    x Can update
+    x Add button loading on verification
+    x Prevent delete based on request status
+    x Prevent update based on request status
+
+% dashboard/Request Status (for summary view)
+    x Add dropdown on employee(data)
+    x Show request content (in case there's an update or changes on their request)
+    x Add pagination in case of over flowing data (limit 10 data per section only)
+
+% dashboard/ARTA ID (for full detail view)
+    x Replicate the other search data function (like: guestqr)
+% dashboard/arta-id/edit
+    - Read documents or API for fabric
+    x Watch youtube tutorials about Fabric js
+    - Allow fabric.js create Arta ID (basics)
+    - Create photoshop like UI design
+    - Download as PSD and JPG
+
+% dashboard
+    - Add summary for Request Status
+    - Add data for request status
+    - Add latest request status
+
+% Sidebar
+    - Get active user (limit 5), in between of dashboard and pages.
+
+
+% TODO NOW
+    - modify arta-id/(Show) > Update Status (card)
+    - modify arta-id/(Show) > Request Status (card)
+    - modify arta-id/(Show) > * Popups

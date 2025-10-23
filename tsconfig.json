@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        // this enables stricter inference for data properties on `this`
+        "strict": true,
+        // "allowJs": true,
+        // "noImplicitAny": false,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "types": ["vite/client"],
+        "paths": {
+            "@/*": ["./resources/js/*"],
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
+        },
+        "allowSyntheticDefaultImports": true,
+
+        "esModuleInterop": true
+    }
+}

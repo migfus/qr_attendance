@@ -1,0 +1,92 @@
+<?php
+APP_NAME="{!! $app_name !!}"
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=false
+APP_TIMEZONE=UTC
+APP_URL="{!! $app_url !!}"
+VITE_URL="{!! $app_url !!}"
+APP_VER=1.4.4
+
+APP_LOCALE=en
+APP_FALLBACK_LOCALE=en
+APP_FAKER_LOCALE=en_US
+
+APP_MAINTENANCE_DRIVER=file
+APP_MAINTENANCE_STORE=database
+
+BCRYPT_ROUNDS=12
+
+# LOG_CHANNEL=stack
+LOG_CHANNEL=nightwatch
+LOG_STACK=single
+LOG_DEPRECATIONS_CHANNEL=null
+LOG_LEVEL=debug
+
+DB_CONNECTION=mysql
+DB_HOST="{!! $host !!}"
+DB_PORT="{!! $port !!}"
+DB_DATABASE="{!! $database !!}"
+DB_USERNAME="{!! $username !!}"
+DB_PASSWORD="{!! $password !!}"
+
+SESSION_DRIVER=database
+SESSION_LIFETIME=43200
+SESSION_EXPIRE_ON_CLOSE=false
+SESSION_ENCRYPT=false
+SESSION_PATH=/
+SESSION_DOMAIN=null
+
+BROADCAST_CONNECTION=reverb
+FILESYSTEM_DISK=local
+QUEUE_CONNECTION=database
+
+CACHE_STORE=database
+CACHE_PREFIX=
+
+MEMCACHED_HOST=127.0.0.1
+
+REDIS_CLIENT=phpredis
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_MAILER="{!! $mail_mailer !!}"
+MAIL_HOST="{!! $mail_host !!}"
+MAIL_PORT="{!! $mail_port !!}"
+MAIL_USERNAME="{!! $mail_username !!}"
+MAIL_PASSWORD="{!! $mail_password !!}"
+MAIL_ENCRYPTION="{!! $mail_encryption !!}"
+MAIL_FROM_ADDRESS="{!! $mail_from_address !!}"
+MAIL_FROM_NAME="${APP_NAME}"
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+AWS_USE_PATH_STYLE_ENDPOINT=false
+
+VITE_APP_NAME="${APP_NAME}"
+
+
+REVERB_APP_ID=
+REVERB_APP_KEY=
+REVERB_APP_SECRET=
+# REVERB_HOST="localhost"
+REVERB_HOST="127.0.0.1"
+REVERB_PORT=8080
+REVERB_SCHEME=http
+
+VITE_REVERB_APP_KEY=
+VITE_REVERB_HOST=
+VITE_REVERB_PORT=
+VITE_REVERB_SCHEME=
+
+FFMPEG="C:/ProgramData/chocolatey/bin/ffmpeg.exe"
+FFPROBE="C:/ProgramData/chocolatey/bin/ffprobe.exe"
+
+NIGHTWATCH_TOKEN=
+NIGHTWATCH_REQUEST_SAMPLE_RATE=0.1
+
+GEMINI_API=
+ ?><?php /**PATH D:\@Projects\2025\Web\CMU Projects\OHRM QR\qr_attendance_v2\resources\views/setup/env_template.blade.php ENDPATH**/ ?>

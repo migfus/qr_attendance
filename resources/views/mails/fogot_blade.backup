@@ -1,0 +1,132 @@
+<div class="body">
+
+  <div class="header">
+    <img src="logo.png" />
+  </div>
+
+  <div class="title">
+    <p> Reset Your Password </p>
+  </div>
+
+  <div class="content">
+    <div style="content-button">
+      <a href="google.com">
+        Reset Password
+      </a>
+    </div>
+    <p class="content-text">
+      <span class="text"> Hello {name},</span>
+      <br />
+      <br />
+      <span class="text">
+        We have sent you this email in response to your request to reset your password on OHRM.
+      </span>
+      <br />
+      <br />
+      <span class="text"
+        >To reset your password, please follow the link below:</span
+      ><br />
+    </p>
+
+    <p class="warning-text">
+      Please ignore this email if you did not request a password change.
+    </p>
+  </div>
+
+  <div class="footer">
+    <p class="text-footer">
+      OHRM Queueing System
+    </p>
+  </div>
+</div>
+
+<style>
+.text {
+  width: 391px; height: 107px; font-size: 14px; text-align: left; color: #3c493e;
+}
+.warning-text {
+  width: 391px; height: 107px; position: absolute; left: 19px; top: 211px; font-size: 12px; font-style: italic; text-align: left; color: #737d75;
+}
+.content-text {
+  width: 391px; height: 107px; position: absolute; left: 19px; top: 22px; font-size: 14px; text-align: left; color: #3c493e;
+}
+a {
+  position: absolute; left: 20px; top: 11px; font-size: 14px; text-align: left; color: #fff;
+}
+.content-button {
+  width: 146px; height: 38px; position: absolute; left: 19px; top: 151px; overflow: hidden; border-radius: 20px; background: #3c493e;
+}
+.content {
+  align-self: stretch;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 289px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.title {
+  align-self: stretch;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 106px;
+  position: relative;
+  overflow: hidden;
+  background: #3c493e;
+}
+.title > p {
+  position: absolute;
+  left: 115px;
+  top: 41px;
+  font-size: 20px;
+  text-align: center;
+  color: #eff2ef;
+}
+.header > img {
+  width: 60px;
+  height: 59px;
+  position: absolute;
+  left: 184.45px;
+  top: 8.45px;
+  object-fit: cover;
+}
+.header {
+  align-self: stretch;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 77px;
+  position: relative;
+  overflow: hidden;
+  background: #eff2ef;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 430px;
+  height: 527px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.footer {
+  align-self: stretch;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 55px;
+  position: relative;
+  overflow: hidden;
+  background: #eff2ef;
+}
+.text-footer {
+  width: 391px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  font-size: 14px;
+  text-align: center;
+  color: #3c493e;
+}
+</style>

@@ -1,0 +1,1 @@
+import{B as t}from"./BasicCard-ClXIXozC.js";import{d as a,c as r,o as s,b as o,w as n,e as u,u as i,j as m}from"./app-BOkKnMk8.js";const f=a({__name:"RequestStatusCard",setup(c){return(d,e)=>(s(),r("div",null,[o(t,{title:"Request Status",description:"Summary",icon:i(m)},{default:n(()=>[...e[0]||(e[0]=[u("p",null,"Summary",-1)])]),_:1},8,["icon"])]))}});export{f as default};

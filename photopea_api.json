@@ -1,0 +1,16 @@
+{
+    "files": ["https://www.photopea.com/api/img2/pug.png"],
+    "layers": [
+        {
+            "type": "text",
+            "name": "Text Layer",
+            "text": "Hello from Vue!",
+            "x": 100,
+            "y": 100,
+            "font": "Arial",
+            "size": 50,
+            "color": "#ff0000"
+        }
+    ],
+    "environment": {}
+}

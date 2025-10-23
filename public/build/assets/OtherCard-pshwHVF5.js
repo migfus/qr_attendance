@@ -1,0 +1,1 @@
+import{_ as o}from"./OtherCard.vue_vue_type_script_setup_true_lang-CI7gXyCK.js";import"./BasicCard-ClXIXozC.js";import"./app-BOkKnMk8.js";import"./PaintBrushIcon-KFjMLR7l.js";import"./switch-BWfTFHiU.js";import"./label-ChvFSArM.js";export{o as default};

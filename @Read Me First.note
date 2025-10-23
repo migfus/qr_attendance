@@ -1,0 +1,32 @@
+// VARIABLES
+
+Native Variable is on snake_case
+* It was a default case in the laravel's database data types.
+* I just want to increase the security for this website by mixing the database and native variable
+* Too obvious if not mixing together, on database is snake_case but on native variable is on camelCase
+* Just want to remind the database variable are visible to front end.
+
+Functions are on camelCase
+* Standardized on laravel
+
+Types and Classes are on PascalCase
+* Mostly globalized standard on typescript and php
+
+
+// REQUIREMENTS
+PHP 8.1 (Xampp)
+  GD - Image Processing
+    php.ini (extension =gd)
+  Magick -
+    https://windows.php.net/downloads/pecl/releases/imagick/3.7.0rc1/
+MySQL 8? (Xampp)
+NodeJS 20.11.0 (installer)
+  Reverb:start
+  SSR
+FFMPEG (by choco)
+
+
+// PHP Config
+post_max_size=4084M         (just to be safe, just for local server anyway)
+upload_max_filesize=4084M   (just to be safe, just for local server anyway)
+memory_limit=4084M          (more ram cuz why not?)

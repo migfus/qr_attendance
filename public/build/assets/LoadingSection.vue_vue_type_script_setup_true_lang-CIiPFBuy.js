@@ -1,0 +1,1 @@
+import e from"./LoadingCard-B1BygFFW.js";import{d as s,c,o as t,e as a,b as o}from"./app-BOkKnMk8.js";const l={class:"flex flex-col gap-4 lg:grid grid-cols-3"},n={class:"lg:col-span-2 flex flex-col gap-4"},f=s({__name:"LoadingSection",setup(r){return(d,i)=>(t(),c("div",l,[a("div",n,[o(e),o(e)]),a("div",null,[o(e)])]))}});export{f as _};
