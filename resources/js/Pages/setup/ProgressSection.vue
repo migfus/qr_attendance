@@ -54,6 +54,7 @@ const steps = [
     { name: 'Step 3', href: '#', status: 'current' },
     { name: 'Step 4', href: '#', status: 'upcoming' },
     { name: 'Step 5', href: '#', status: 'upcoming' },
-    { name: 'Step 6', href: '#', status: 'upcoming' }
+    { name: 'Step 6', href: '#', status: 'upcoming' },
+    { name: 'Step 7', href: '#', status: 'upcoming' }
 ]
 </script>

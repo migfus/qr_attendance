@@ -48,3 +48,8 @@ export interface SelectTheme {
         default: string
     }
 }
+
+export interface InputType {
+    icon: FunctionalComponent
+    name: string
+}

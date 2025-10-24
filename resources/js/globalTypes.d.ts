@@ -185,3 +185,5 @@ export interface SimpleDataTable {
     id: string | number
     status: string
 }
+
+//  NEW INTERFACES IN version 2

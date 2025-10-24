@@ -15,11 +15,13 @@
                                     <span class="flex flex-1">
                                         <span class="flex flex-col">
                                             <RadioGroupLabel as="span" class="block text-sm font-medium text-light-002">{{ item.name }}</RadioGroupLabel>
-                                            <RadioGroupDescription as="span" class="mt-1 flex items-center text-sm text-brand-300">
+                                            <RadioGroupDescription as="span" class="mt-1 flex items-top text-sm text-brand-300 gap-2">
+                                                <InformationCircleIcon class="size-4 flex-none" />
                                                 {{ item.description }}
                                             </RadioGroupDescription>
-                                            <RadioGroupDescription as="span" class="mt-1 flex items-center text-sm text-brand-300">
-                                                {{ item.description }}
+                                            <RadioGroupDescription as="span" class="mt-1 flex items-center text-sm text-brand-300 gap-2">
+                                                <InformationCircleIcon class="size-4 flex-none" />
+                                                {{ item.description_ext }}
                                             </RadioGroupDescription>
                                         </span>
                                     </span>
@@ -38,10 +40,7 @@
                     </RadioGroup>
 
                     <div class="flex flex-col gap-2 mt-4">
-                        <p class="text-brand-200 font-semibold text-sm flex align-middles gap-2">
-                            <InformationCircleIcon class="size-5" />
-                            You can change version after the setup.
-                        </p>
+                        <InformationLabel> You can change version after the setup. </InformationLabel>
                     </div>
                 </div>
 
@@ -63,16 +62,19 @@ import { CheckCircleIcon } from '@heroicons/vue/20/solid'
 
 import { reactive, ref } from 'vue'
 import SetupLayout from './SetupLayout.vue'
+import InformationLabel from '@/components/info/InformationLabel.vue'
 
 const form = reactive(initForm())
 const select_version = [
     {
         name: 'Professional',
-        description: 'Recommended for Single Team.'
+        description: 'Recommended for Single Business.',
+        description_ext: 'Single Team Only'
     },
     {
         name: 'Community',
-        description: 'Recommended for Multiple Teams.'
+        description: 'Recommended for Multiple Business.',
+        description_ext: 'Multiple Team'
     }
 ]
 

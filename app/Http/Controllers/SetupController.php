@@ -18,24 +18,29 @@ class SetupController extends Controller {
                 return $this->fourthShow();
             case 5:
                 return $this->fifthShow();
+            case 6:
+                return $this->sixthShow();
             default:
                 return $this->firstShow();
         }
     }
     private function firstShow(): Response {
-        return Inertia::render('setup/FirstStepPage', ['page_title' => 'Env Setup | Step 1', 'setup' => true,]);
+        return Inertia::render('setup/FirstStepPage', ['page_title' => 'Env Setup | Step 1', 'setup' => true, 'php_requirements' => $this->checkPhpRequirements()]);
     }
     private function secondShow(): Response {
         return Inertia::render('setup/SecondStepPage', ['page_title' => 'Setup the Look | Step 2', 'setup' => true]);
     }
     private function thirdShow(): Response {
-        return Inertia::render('setup/ThirdStepPage', ['page_title' => 'Check Requirements | Step 3', 'setup' => true, 'php_requirements' => $this->checkPhpRequirements()]);
+        return Inertia::render('setup/ThirdStepPage', ['page_title' => 'Check Requirements | Step 3', 'setup' => true]);
     }
     private function fourthShow(): Response {
         return Inertia::render('setup/FourthStepPage', ['page_title' => 'Select  | Step 4', 'setup' => true]);
     }
     private function fifthShow(): Response {
         return Inertia::render('setup/FifthStepPage', ['page_title' => 'Create form for new users | Step 5', 'setup' => true]);
+    }
+    private function sixthShow(): Response {
+        return Inertia::render('setup/SixthStepPage', ['page_title' => 'Setup super admin account | Step 6 ', 'setup' => true]);
     }
 
     public function store(Request $req) {
